@@ -1,0 +1,46 @@
+#blue{
+    background-color: blue;
+
+    margin-left: 10%;
+}
+
+#red {
+    background-color: red;
+
+}
+
+#green{
+    background-color: green;
+
+}
+
+@media (min-width: 360px) {
+    #blue{
+        background-color: blue;
+        width: 500px;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 10px;
+        z-index: 2;
+    }
+
+    #red {
+        background-color: red;
+        height:30% ;
+        width: 30%;
+        margin-left: 5%;
+        z-index: 3;
+    }
+
+    #green{
+        background-color: green;
+        height: 30%;
+        width:30%;
+        margin-left: 15%;
+        border:10px black;
+        align-content: center;
+        z-index: 1;
+
+    }
+
+}
